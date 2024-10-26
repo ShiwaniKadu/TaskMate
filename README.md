@@ -7,9 +7,6 @@ TaskMate is an enterprise-level task management application built with Angular. 
 - [Screenshots](#screenshots)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#project-structure)
-- [Contributing](#contributing)
-- [License](#license)
 
 ## Features
 
