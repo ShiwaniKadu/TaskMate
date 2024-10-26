@@ -61,6 +61,6 @@ TaskMate is an enterprise-level task management application built with Angular. 
 - **Click the Add Task button to add a new task. Fill in the title, summary, and due date, then click Create.
 - **Mark tasks as completed by clicking the Complete button on each task.
 
-
+🌟 TaskMate: Your Ultimate Task Management Solution
 
 
