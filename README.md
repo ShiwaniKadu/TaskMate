@@ -2,8 +2,6 @@
 
 TaskMate is an enterprise-level task management application built with Angular. It provides a user-friendly interface to manage tasks for different users, allowing users to add, view, and complete tasks efficiently.
 
-![TaskMate UI](./images/screenshot_main.png)
-
 ## Table of Contents
 - [Features](#features)
 - [Screenshots](#screenshots)
@@ -63,22 +61,6 @@ TaskMate is an enterprise-level task management application built with Angular. 
 - **Click the Add Task button to add a new task. Fill in the title, summary, and due date, then click Create.
 - **Mark tasks as completed by clicking the Complete button on each task.
 
-
-### Project Structure
-
-   src/
-├── app/
-│   ├── components/
-│   │   ├── header/           # Header component for branding
-│   │   ├── user/             # User component to display user list
-│   │   ├── tasks/            # Tasks component for task list and details
-│   │   ├── new-task/         # New Task component with dialog form
-│   └── services/
-│       └── task.service.ts   # Task service for managing task data
-├── assets/
-│   └── task-management-logo.png   # Logo asset
-├── styles.css                # Global styles
-└── index.html                # Main HTML file
 
 
 
