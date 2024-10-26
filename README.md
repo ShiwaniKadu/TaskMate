@@ -1,27 +1,84 @@
-# FirstAngularApp
+# TaskMate
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.9.
+TaskMate is an enterprise-level task management application built with Angular. It provides a user-friendly interface to manage tasks for different users, allowing users to add, view, and complete tasks efficiently.
 
-## Development server
+![TaskMate UI](./images/screenshot_main.png)
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Table of Contents
+- [Features](#features)
+- [Screenshots](#screenshots)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Project Structure](#project-structure)
+- [Contributing](#contributing)
+- [License](#license)
 
-## Code scaffolding
+## Features
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **User Selection**: Choose a user from the list to view their specific tasks.
+- **Task Management**: Add new tasks with a title, summary, and due date, and mark tasks as completed.
+- **Responsive Design**: Optimized for desktop, tablet, and mobile view.
+- **Reusable Components**: Built with modular components (`app-header`, `app-user`, `app-task`, `app-new-task`).
+- **Dialog Support**: Add new tasks using a modal dialog with a form for details.
 
-## Build
+## Screenshots
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Main Screen
+![Main Screen](./public/ui-project.png)
 
-## Running unit tests
+### Add Task Modal
+![Add Task Modal](./public/ui-task.png)
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+*Note: Add the images in an "images" folder within your project repository, and reference them as shown above.*
 
-## Running end-to-end tests
+## Installation
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+### Prerequisites
+- [Node.js](https://nodejs.org/) and npm (Node Package Manager)
+- [Angular CLI](https://angular.io/cli)
 
-## Further help
+### Steps
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/ShiwaniKadu/TaskMate.git
+   ```
+2. **Navigate to the project directory**
+   ```bash
+   cd TaskMate
+   ```
+3. **Install dependencies**
+   ```bash
+   npm install
+   ```
+4. **Run the application**
+   ```bash
+   ng serve
+   ```
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+### Open your browser and go to http://localhost:4200 to view TaskMate.
+
+### Usage
+- **Select a user from the user list on the left.
+- **View the selected user's tasks in the main panel.
+- **Click the Add Task button to add a new task. Fill in the title, summary, and due date, then click Create.
+- **Mark tasks as completed by clicking the Complete button on each task.
+
+
+### Project Structure
+
+   src/
+├── app/
+│   ├── components/
+│   │   ├── header/           # Header component for branding
+│   │   ├── user/             # User component to display user list
+│   │   ├── tasks/            # Tasks component for task list and details
+│   │   ├── new-task/         # New Task component with dialog form
+│   └── services/
+│       └── task.service.ts   # Task service for managing task data
+├── assets/
+│   └── task-management-logo.png   # Logo asset
+├── styles.css                # Global styles
+└── index.html                # Main HTML file
+
+
+
